@@ -7,7 +7,7 @@ int main()
 	if(score<0||score>100)  /*限制输入数值的范围是0--100*/
 		printf("这个数值错误.\n");
 	else
-		switch((int)score/10)
+		switch((int)score/10)/*case的比值 如：score/10 则case值为设置的10倍*/
 	{
 		case 0:
 		case 1:
